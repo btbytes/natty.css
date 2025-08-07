@@ -2,7 +2,7 @@
 
 All the CSS gains, all Natty! 
 
-[**Demo Page**](https://htmlpreview.github.io/?https://github.com/btbytes/nattycs/blob/main/index.html)
+[**Demo Page**](https://htmlpreview.github.io/?https://github.com/btbytes/natty.css/blob/main/index.html)
 
 The idea behind `natty.css` is that you should be able to use just the right 
 amount of CSS to style your webpage. `natty.css` was inspired by [nat.org](https://nat.org),
