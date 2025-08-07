@@ -12,26 +12,30 @@ amount of CSS to style your webpage. What `natty.css` provides is:
 3. use sans-serif fonts
 4. use `em` for defining width instead of `px`
 5. this also prints well; "wywsiwyg" since the width is `43em.`
+6. supports dark-mode
+7. change theme colors if you like (line 1, 2)
 
 `natty.css` was inspired by [nat.org](https://nat.org),which has inspired many ai companies e.g: [Meta Superintelligence](https://www.meta.com/superintelligence/), and an earlier version of [ssi](https://ssi.inc) etc.
 
 
 ## how to use it
 
-copy [natty.css](natty.css), **Read through the 12 lines** and delete everything
-you don't need. you are not planning write any code? delete the `code` line.
+copy [natty.css](natty.css), **Read through the 14 lines** and delete everything
+you don't need. you are not planning to write any code? delete the `code` line.
 
 ```css
+:root{--bg-color:#fdfdfd;--text-color:#222;--link-color:#0066cc;--blockquote-border:#ccc;--blockquote-text:#555;--code-bg:#f4f4f4;--code-text:inherit;--hr-color:#ddd;}
+@media (prefers-color-scheme:dark){:root{--bg-color:#121212;--text-color:#e4e4e4;--link-color:#4da3ff;--blockquote-border:#555;--blockquote-text:#ccc;--code-bg:#1e1e1e;--code-text:#f8f8f2;--hr-color:#444;}}
 *{box-sizing:border-box;margin:0;padding:0;}
-html{font-size:16px;line-height:1.6;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;background-color:#fdfdfd;color:#222;}
+html{font-size:16px;line-height:1.6;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;background-color:var(--bg-color);color:var(--text-color);}
 body{max-width:43rem;margin:2rem auto;padding:0 1rem;}
 h1,h2,h3,h4,h5,h6{font-weight:600;margin:2rem 0 1rem;line-height:1.3;}
 p{margin-bottom:1rem;}
-a{color:#0066cc;text-decoration:none;}
+a{color:var(--link-color);text-decoration:none;}
 a:hover{text-decoration:underline;}
 img{max-width:100%;height:auto;display:block;margin:1rem 0;}
-blockquote{border-left:4px solid #ccc;padding-left:1rem;margin:1.5rem 0;color:#555;font-style:italic;}
-code{font-family:SFMono-Regular,Consolas,"Liberation Mono",Menlo,monospace;background:#f4f4f4;padding:0.2rem 0.4rem;border-radius:3px;}
+blockquote{border-left:4px solid var(--blockquote-border);padding-left:1rem;margin:1.5rem 0;color:var(--blockquote-text);font-style:italic;}
+code{font-family:SFMono-Regular,Consolas,"Liberation Mono",Menlo,monospace;background:var(--code-bg);color:var(--code-text);padding:0.2rem 0.4rem;border-radius:3px;}
 ul,ol{padding-left:2rem;margin-bottom:1rem;}
-hr{border:none;border-top:1px solid #ddd;margin:2rem 0;}
+hr{border:none;border-top:1px solid var(--hr-color);margin:2rem 0;}
 ```
