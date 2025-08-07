@@ -7,7 +7,6 @@ a{color:#0066cc;text-decoration:none;}
 a:hover{text-decoration:underline;}
 img{max-width:100%;height:auto;display:block;margin:1rem 0;}
 blockquote{border-left:4px solid #ccc;padding-left:1rem;margin:1.5rem 0;color:#555;font-style:italic;}
-
 code{font-family:SFMono-Regular,Consolas,"Liberation Mono",Menlo,monospace;background:#f4f4f4;padding:0.2rem 0.4rem;border-radius:3px;}
 ul,ol{padding-left:2rem;margin-bottom:1rem;}
 hr{border:none;border-top:1px solid #ddd;margin:2rem 0;}
