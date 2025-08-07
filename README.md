@@ -17,6 +17,6 @@ amount of CSS to style your webpage. What `natty.css` provides is:
 
 ## how to use it
 
-copy [natty.css](natty.css), **Read through the 11 lines** and delete everything
+copy [natty.css](natty.css), **Read through the 12 lines** and delete everything
 you don't need. you are not planning write any code? delete the `code` line.
 
