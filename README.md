@@ -11,6 +11,7 @@ amount of CSS to style your webpage. What `natty.css` provides is:
 2. use system fonts that are available on most popular operating systems
 3. use sans-serif fonts
 4. use `em` for defining width instead of `px`
+5. this also prints well; "wywsiwyg" since the width is `43em.`
 
 `natty.css` was inspired by [nat.org](https://nat.org),which has inspired many ai companies e.g: [Meta Superintelligence](https://www.meta.com/superintelligence/), and an earlier version of [ssi](https://ssi.inc) etc.
 
