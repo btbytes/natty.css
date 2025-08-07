@@ -1,4 +1,4 @@
-# nayy.css
+# natty.css
 
 all the css gains, all natty! 
 
